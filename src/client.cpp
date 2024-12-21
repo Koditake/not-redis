@@ -36,7 +36,7 @@ int main() {
     if (n < 0)
         die("read");
 
-    printf("server says : %s\n");
+    printf("server says : %s\n", rbuf);
     close(fd);
     return 0;
 }
